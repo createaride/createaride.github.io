@@ -1,0 +1,114 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-size: 9pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #d2d8e3;
+	height: 100%;
+	background: #24262d;
+	margin: 0px;
+}
+
+.logobg {
+	height: 128px;
+	width: 100%;
+	background: url('art/logo_bg.gif') repeat-x;
+}
+
+.logo {
+	height: 128px;
+	width: 100%;
+	background: url('art/logo.gif') no-repeat center;
+}
+
+.mainpage {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 662px;
+}
+
+.box {
+	display: inline;
+	margin: 1px 3px 0 3px;
+	float: left;
+}
+
+.boxtop {
+	position:relative;
+	background:url('art/box.gif') no-repeat 100% 0;
+	margin:0 0 0 12px;
+	height:12px;
+}
+
+.boxtop div {
+	position:absolute;
+	height:12px;
+	width:12px;
+	left:-12px;
+	background:url('art/box.gif') no-repeat 0 0;
+}
+
+.boxdivider {
+	position:relative;
+	background:url('art/box.gif') no-repeat 100% -106px;
+	margin:0 0 0 12px;
+	height: 6px;
+}
+
+.boxdivider div {
+	position:absolute;
+	height: 6px;
+	width: 12px;
+	left: -12px;
+	background:url('art/box.gif') no-repeat 0 -106px;
+}
+
+.boxtop div div {
+	visibility: hidden;
+}
+
+.boxbot {
+	position:relative;
+	background:url('art/box.gif') no-repeat 100% 100%;
+	margin:0 0 0 14px;
+	height:14px;
+}
+
+.boxbot div {
+	position:absolute;
+	height:14px;
+	width:14px;
+	left:-14px;
+	background: url('art/box.gif') no-repeat 0 100%;
+	*background-color: #24262d;
+}
+
+.boxbot div div {
+	visibility: hidden;
+}
+
+.boxl {
+	padding:0 0 0 12px;
+	background:url('art/borders.gif') repeat-y 0 0;
+}
+
+.boxr {
+	padding:0 12px 0 0;
+	background:url('art/borders.gif') repeat-y 100%; 0px;
+}
+
+.boxm {
+	background:#000000;
+	padding: 0px 0px 0px 0px;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	font-size: 8pt;
+	color: #808a9d;
+	padding-bottom: 10px;
+}
